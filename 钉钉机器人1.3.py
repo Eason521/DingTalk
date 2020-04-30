@@ -1,6 +1,6 @@
 # -*- coding:utf-8 -*-
 # Author : Tany
-# Date :2020-4-29
+# Date :2020-4-30
 from gevent import monkey
 
 monkey.patch_all()
@@ -222,4 +222,3 @@ if __name__ == '__main__':
 
     gevent.joinall(tasks_list)
     print('发送完成请直接回车退出：')
-

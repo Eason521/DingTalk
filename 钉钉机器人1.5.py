@@ -292,8 +292,7 @@ if __name__ == '__main__':
             access_token_num = int(input('请输入机器人个数：'))
             work = Queue()
             for i in range(access_token_num):
-                # access_token = input('请输入机器人链接：')
-                access_token = '1286bb8cd4fe89c89f482bf58c9230ed3ebc45876431b6843f7050bb7b85b303'
+                access_token = input('请输入机器人链接：')
                 work.put_nowait(access_token)
 
             url = choose_range()
